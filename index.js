@@ -150,7 +150,8 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@6287832147584"; 
+nomorowner1 = "@6287832147584";
+nomorowner2 = "@6285759662798";
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -792,7 +793,7 @@ if (!itsMe && !isOwner)return
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
-            title: "FakeReply Bang", //Kasih namalu
+            title: "AbengLORD", //Kasih namalu
             description: "Xeon",
             currencyCode: "USD",
             priceAmount1000: "2000",
@@ -1621,9 +1622,9 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
-   dtod2 = '919774340154'
+   dtod = '6287832147584'
+   dtod1 = '6287832147584'
+   dtod2 = '6285759662798'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -1991,7 +1992,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 			break
  case 'owner3':
 let ini_list = []
-for (let i of nomorowner1) {
+for (let i of nomorowner1 == nomorowner2) {
 const vname = xeon.contacts[i] != undefined ? xeon.contacts[i].vname || xeon.contacts[i].notify : undefined
 ini_list.push({
 "displayName": 'Xeon',
